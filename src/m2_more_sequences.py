@@ -11,8 +11,8 @@ for ITERATING through SEQUENCES, including selections from:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Colton McKay.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -108,6 +108,11 @@ def shortest_string(strings):
     #     The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
+    index_of_min = 0
+    for k in range(1, len(strings)):
+        if strings[k] < strings[index_of_min]:
+            index_of_min = (strings)
+            return strings[index_of_min]
 
 def run_test_index_of_largest_number():
     """ Tests the   index_of_largest_number   function. """
